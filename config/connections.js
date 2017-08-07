@@ -34,7 +34,11 @@ module.exports.connections = {
 
   mlab: {
     adapter: 'sails-mongo',
-    uri: 'mongodb://admin:123@ds129143.mlab.com:29143/mpg'
+    host: 'ds129143.mlab.com',
+    port: 29143,
+    user: 'admin',
+    password: '123',
+    database: 'mpg'
   }
 
   /***************************************************************************
