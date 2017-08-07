@@ -14,6 +14,7 @@ const fs = require('fs');
 
 module.exports.bootstrap = function(cb) {
 
+  /*
   let cars = JSON.parse(fs.readFileSync('cars.json', 'utf8'));
   console.log('autos: ', cars.length);
   let qCars = [];
@@ -25,7 +26,8 @@ module.exports.bootstrap = function(cb) {
     console.log('Agregados todos los coches a la base de datos', data.length);
     cb();
   }).catch(err => cb(err));
+  */
 
-  //cb();
+  cb();
 
 };
